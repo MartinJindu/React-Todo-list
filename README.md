@@ -1,15 +1,32 @@
-## Install vite(react)
+## Install Vite (React)
 
---npm install bootstrap uuid --save
+### Required Packages
+To get started, install the necessary dependencies:
+```bash
+npm install bootstrap uuid --save
+```
 
-### import
+### Importing Libraries and Fonts
 
---// importing bootstrap for styling
+#### Bootstrap
+To use Bootstrap for styling, import it in your project:
+```javascript
 import "bootstrap/dist/css/bootstrap.min.css";
---import { v4 as uuid } from "uuid"; // uuid for creating unique id
+```
 
--- I also add a font from awesomefont
+#### UUID
+To create unique IDs, import the `uuid` package:
+```javascript
+import { v4 as uuid } from "uuid";
+```
 
-  <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"/>
+#### Font Awesome
+To include Font Awesome for icons, add the following link tag in your HTML file (usually in `public/index.html`):
+```html
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+/>
+```
+
+
